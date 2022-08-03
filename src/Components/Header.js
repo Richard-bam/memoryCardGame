@@ -1,5 +1,6 @@
 import React from "react";
 
+// basic header component to be displayed on every page
 function Header() {
     return (
         <div className="headerDiv">

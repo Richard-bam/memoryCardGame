@@ -1,38 +1,101 @@
+/* removing margin */
+*{
+  margin: 0%;
+}
+/* aligning in center */
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* styling anchor tage */
+a{
+  text-decoration: none;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* styling the header div */
+.headerDiv{
+  font-size: 30px;
+  font-family:monospace;
+  margin: 0%;
+  background-color: lightyellow;
+  padding:40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* styling the menu div */
+.menuDiv{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+/* styling buttons on menu Div */
+.menuDiv button{
+  margin: auto;
+  width: 100px;
+  font-size: x-large;
+}
+/* styling start div */
+.startDiv{
+  padding: 30px;
+}
+/* styling rule div */
+.ruleDiv{
+  padding: 30px;
+  margin: auto;
+}
+/* styling rules in rule div */
+.rules{
+  background-color: lightyellow;
+  padding: 10px;
+  margin: auto;
+  width:50%;
+  border:2px yellow solid;
+}
+/* styling the main game div */
+.GameDiv{
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  width:70%;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+/* styling images in game div */
+.GameDiv img{
+  width: 150px;
+  height: auto;
+}
+/* styling card divs */
+.cardDiv{
+  padding: 5px;
+}
+/*  styling button div */
+.buttonDiv{
+  padding : 20px;
+  display: flex;
+  margin: auto;
+  width:60%;
+  justify-content: flex-end;
+}
+/* styling buttons in button div */
+.buttonDiv button{
+  border-radius: 5px;
+  background-color: black;
   color: white;
+  padding: 10px;
+  margin: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+/* styling anchor tags in button div */
+.buttonDiv a{
+color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styling turn counter div */
+.turnCounter{
+  display: flex;
+}
+/* styling p in turn counter div */
+.turnCounter p{
+  margin-left: 70%;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 70px;
+  background-color: white;
 }
